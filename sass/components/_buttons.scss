@@ -1,0 +1,26 @@
+.btn-orange {
+  background-color: $orange;
+  color: $white;
+  @include border-radius(10px);
+  transition: 3s;
+  &:hover{
+    background-color: $orange-hover;
+    transition: 3s;
+  }
+}
+.btn-grey {
+  background-color: $grey;
+  color: $white;
+  @include border-radius(10px);
+  transition: 3s;
+  &:hover{
+    background-color: $grey-hover;
+    transition: 3s;
+  }
+}
+.btn-disabled {
+  background-color: $white-hover;
+  color: $white;
+  @include border-radius(10px);
+  }
+}

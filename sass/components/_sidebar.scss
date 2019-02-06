@@ -1,0 +1,51 @@
+.sidebar {
+  box-sizing: border-box;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $brand-main-color;
+    img {
+      margin-left: 10px;
+      padding: 10px;
+    }
+    ul {
+  	margin: 0;
+  	padding: 0 0 10px 0;
+  	list-style-type: none;
+    border-bottom: .5px solid $black-hover;
+      a {
+      color: $grey;
+      line-height: 40px;
+    	padding: 0 15px;
+    	display: block;
+    	text-decoration: none;
+    	transition: .3s;
+      border-left: 4px solid $brand-main-color;
+      &:hover{
+        background-color: $black-hover;
+        color: $white-hover;
+        transition: .3s;
+        border-left: 4px solid $orange-hover;
+        }
+        span {
+          margin: 10px;
+          padding: 5px;
+          vertical-align: bottom;
+          }
+        }
+      }
+    }
+
+.logo {
+  height: 50px;
+}
+.manager {
+  a, img {
+    vertical-align: middle;
+  }
+  h4 {
+    margin-left: 20px;
+  }
+}
