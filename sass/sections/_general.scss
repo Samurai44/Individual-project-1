@@ -1,0 +1,83 @@
+.general {
+  width: 100%;
+  float: right;
+  margin-top: 65px;
+  background-color: $white;
+  justify-content: center;
+  button {
+    padding: 0px 15px;
+    margin: 10px;
+  }
+  .row{
+    justify-content: center;
+    border-bottom: .5px solid $grey-hover;
+    padding: 10px;
+  li {
+  display: inline-block;
+  max-width: 1000px;
+  text-align: center;
+  padding: 10px 10px;
+  @include border-radius (5px);
+  border: .5px solid $grey-hover;
+    img{
+    position: relative;
+    margin-left: 40px;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    transition: .3s;
+    }
+    span{
+      font-size: 15px;
+    }
+  }
+}
+  .col-xl-4 {
+    margin: 15px 30px;
+    padding: 5px;
+  }
+  h4 {
+    margin-left: 30px;
+  }
+  .second {
+    border: none;
+  }
+  .third {
+    border: none;
+  }
+  .fourth {
+    border: none;
+    div:nth-child(3){
+      background-color: $white;
+    }
+    span, a{
+      vertical-align: middle;
+    }
+    a {
+      text-decoration: none;
+    }
+    .dot {
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 10px;
+      }
+    #orange{
+        background-color: $orange;
+      }
+    #green{
+        background-color: $green;
+      }
+    #blue{
+      background-color: $blue;
+    }
+    div {
+      margin: 10px;
+      padding: 10px;
+      @include border-radius (5px);
+      background-color: $white-hover;
+      color: $grey-hover;
+    }
+  }
+}

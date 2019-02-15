@@ -16,13 +16,11 @@ body{
 }
 .container-fluid {
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+
 }
 .flex {
 	display: -webkit-flex;
 	display: flex;
-	justify-content: flex-end;
 }
 
 .row {
@@ -34,4 +32,17 @@ h1, h2, h3, h4 {
   float: left;
   text-transform: uppercase;
   color: $grey;
+	padding: 0 10px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.underline {
+	border-bottom: .5px solid $grey-hover;
+}
+.text {
+	color: $grey;
 }

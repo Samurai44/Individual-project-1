@@ -1,9 +1,0 @@
-{
-	"version": 3,
-	"file": "general.css",
-	"sources": [
-		"../../sass/sections/general.scss"
-	],
-	"names": [],
-	"mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,MAAM,EAAE,gBAAgB;EACxB,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,IAAI;CAEjB"
-}

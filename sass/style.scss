@@ -5,10 +5,11 @@
 @import "base";
 @import "layout";
 /* Components */
-@import "components/sidebar";
-@import "components/topbar";
+@import "components/buttons";
 
 /* Sections */
-@import "sections/general"
+@import "sections/general";
+@import "sections/sidebar";
+@import "sections/topbar";
 
 ///* Pages Views */
