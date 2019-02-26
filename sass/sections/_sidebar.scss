@@ -6,9 +6,35 @@
   top: 0;
   left: 0;
   background-color: $brand-main-color;
-    img {
-      margin-left: 10px;
-      padding: 10px;
+    .logo {
+      display: block;
+      z-index: 1;
+      input {
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 160px;
+        width: 30px;
+        height: 30px;
+        opacity: 0;
+        z-index: 2;
+        &:hover {
+          cursor: pointer;
+        }
+      } span {
+        margin: 5px;
+        display: block;
+        width: 25px;
+        height: 3px;
+        position: relative;
+        left: 160px;
+        top: -35px;
+        background: $grey;
+        border-radius: 3px;
+      }img {
+        margin-left: 1em;
+        padding: 5px 10px 0 0;
+      }
     }
     ul {
   	margin: 0;
@@ -37,15 +63,66 @@
         }
       }
     }
-
 .logo {
   height: 50px;
 }
 .manager {
-  a, img {
+  a {
     vertical-align: middle;
-  }
-  h4 {
+  }img {
+    margin-left: 1em;
+    padding: 5px 10px 0 0;
+    vertical-align: middle;
+  }h4 {
     margin-left: 20px;
+  }
+}
+@media(max-width: 767px){
+  .sidebar {
+    width: 100%;
+    height: 100%;
+    padding: 1em 2em;
+    .logo {
+      width: 100%;
+      border-bottom: .2px solid $orange-hover;
+        display: block;
+        z-index: 1;
+        position: relative;
+        input {
+          display: block;
+          position: absolute;
+          top: 10px;
+          right: 0px;
+          margin-left: 4em;
+          width: 30px;
+          height: 30px;
+          opacity: 0;
+          z-index: 2;
+          }
+         span {
+          margin-left: 4em;
+          display: block;
+          width: 25px;
+          height: 3px;
+          position: relative;
+          top: -35px;
+          background: $grey;
+          border-radius: 3px;
+        }img {
+          margin: 0 1em;
+          padding: 5px 10px 0 0;
+        }
+    } .manager {
+      display:none;
+    } ul a {
+        border-bottom: .1px solid $grey;
+        color: $grey;
+        line-height: 70px;
+      }
+    }
+  }
+@media(min-width: 768px){
+  .sidebar {
+    padding-top: 5px;
   }
 }

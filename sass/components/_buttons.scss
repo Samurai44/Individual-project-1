@@ -6,6 +6,7 @@
   &:hover{
     background-color: $orange-hover;
     transition: .3s;
+    cursor: pointer;
   }
 }
 .btn-grey {
@@ -16,6 +17,7 @@
   &:hover{
     background-color: $grey-hover;
     transition: .3s;
+    cursor: pointer;
   }
 }
 .btn-disabled {

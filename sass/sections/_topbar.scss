@@ -4,7 +4,7 @@
   left: 200px;
   right: 0;
   background-color: #fff;
-  line-height: 50px;
+  line-height: 55px;
   border-bottom: .5px solid $grey;
   float: right;
   ul {
@@ -19,6 +19,7 @@
     line-height: 50px;
     text-align: center;
       img{
+      fill: $grey-hover;
       position: relative;
       margin: 0 10px;
       height: 20px;
@@ -35,4 +36,9 @@
       }
     }
   }
+}
+@media(max-width: 767px){
+  .topbar{
+  display: none;
+}
 }

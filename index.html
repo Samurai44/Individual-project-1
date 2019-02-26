@@ -6,26 +6,30 @@
     <title>Project-1</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="vendor/css/Glyphter.css">
+    <script type="text/javascript" src= href="js/script.js"></script>
   </head>
   <body>
     <header>
       <div class="topbar">
         <ul>
-      		<li>
+          <li>
             <img src="vendor/icons/wallet.svg" alt="wallet">
             <span>$1500</span>
             <img src="vendor/icons/arrow-down.svg" alt="down">
           </li>
-      		<li><img src="vendor/icons/notification.svg" alt="notifications"></li>
-      		<li><img src="vendor/icons/profile.svg" alt="profile"><a href="#">Leonardo Da Vinci</a></li>
+          <li><img src="vendor/icons/notification.svg" alt="notifications"></li>
+          <li><img src="vendor/icons/profile.svg" alt="profile"><a href="#">Leonardo Da Vinci</a></li>
           <li><img src="vendor/icons/quit.svg" alt="quit"></li>
-      	</ul>
+        </ul>
       </div>
     </header>
     <nav class="sidebar">
       <div class="logo">
         <img src="//placehold.it/100x30" alt="logo">
-        <img src="//placehold.it/30x30" alt="menu">
+        <input type="checkbox"/>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
       </div>
       <ul>
         <li><a href="#" class="icon-general"><span>General</span></a></li>
@@ -45,13 +49,13 @@
     <section class="general">
       <div class="container-fluid">
           <div class="row">
-            <h3 class="col-xl-12">general statistic</h3>
+            <h3 class="col-lg-12">general statistic</h3>
           </div>
-          <div class="row">
+          <div class="row first">
             <ul>
               <li>
                 <span>16.05.2016</span>
-                <img src="vendor/icons/arrow-down.svg" alt="down">
+                <span></span>
                 <span>16.05.2016</span>
                 <img src="vendor/icons/calendar.svg" alt="calendar">
               </li>
@@ -59,21 +63,23 @@
             <button class="btn-orange icon-refresh"></button>
           </div>
           <div class="row second">
-            <div class="col-xl-4 underline">
-              <span class="left text"><strong>visit signups</strong></span><span class="right">457</span>
+            <div class="col-md-4 col-lg-4 underline">
+              <span class="left text"><strong>Visit signups</strong></span><span class="right">457</span>
             </div>
-            <div class="col-xl-4 underline">
-              <span class="left text"><strong>visit signups</strong></span><span class="right">457</span>
+            <div class="col-md-4 col-lg-4 underline">
+              <span class="left text"><strong>Net deposit</strong></span><span class="right">457</span>
             </div>
-            <div class="col-xl-4 underline">
-              <span class="left text"><strong>visit signups</strong></span><span class="right">457</span>
+          </div>
+          <div class="row second">
+            <div class="col-md-4 col-lg-4 underline">
+              <span class="left text"><strong>FTD</strong></span><span class="right">457</span>
             </div>
-            <div class="col-xl-4 underline">
-              <span class="left text"><strong>visit signups</strong></span><span class="right">457</span>
+            <div class="col-md-4 col-lg-4 underline">
+              <span class="left text"><strong>Turn over</strong></span><span class="right">457</span>
             </div>
           </div>
           <div class="row third">
-            <h4 class="col-xl-9">Earnings chart</h4>
+            <h4 class="col-md-9 col-lg-9 col-xl-9">Earnings chart</h4>
           </div>
           <div class="row fourth">
               <div><span class="dot" id="blue"></span><a href="#">Signups</a></div>
@@ -81,7 +87,9 @@
               <div><span class="dot" id="green"></span><a href="#">Earned</a></div>
           </div>
           <div class="row">
-            <img src="vendor/images/earningschart.png" alt="earnings chart">
+            <!--<div class="col-md-4 col-lg-4">
+              <img src="vendor/images/earningschart.png" alt="earnings chart">
+            </div>-->
           </div>
         </div>
     </section>
